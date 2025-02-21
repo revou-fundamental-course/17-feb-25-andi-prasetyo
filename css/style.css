@@ -1,1 +1,109 @@
 /* Ini CSS external */
+.body {
+  font-family: Arial;
+}
+
+main > header > h1 {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+main > header > h4 {
+  text-align: center;
+  margin-top: 2px;
+}
+
+.logo-company {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-image: url(../assets/logo.jpg);
+  background-size: cover;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-container {
+  border: 1px solid black;
+}
+
+.navbar {
+  display: flex;
+}
+
+.navbar a {
+  border: 1px solid black;
+  padding: 8px;
+  text-decoration: none;
+  border-radius: 4px;
+  color: black;
+  font-weight: bold;
+}
+
+.navbar .no-border-radius {
+  border-radius: 0;
+}
+
+.navbar .no-border-radius-right {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.navbar .no-border-radius-left {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.main-content {
+  display: flex;
+  gap: 24px;
+}
+
+.main-container {
+  border: 1 solid black;
+  height: 400px;
+  flex: 1;
+}
+.our-package-section {
+  border: 1px solid black;
+  height: 100px;
+  align-content: center;
+  text-align: center;
+  background-color: aliceblue;
+}
+.our-content-article {
+  border: 1px solid black;
+  height: 300px;
+}
+
+.contact-us-section {
+  border: 1px solid black;
+  height: 100px;
+  align-content: center;
+  text-align: center;
+  background-color: aliceblue;
+}
+.contact-us-content {
+  border: 1px solid black;
+  height: 300px;
+}
+
+.footer-content {
+  padding: 0;
+}
+
+.footer-content a {
+  padding: 8px;
+  text-decoration: none;
+  border-radius: 4px;
+  color: black;
+  display: flex;
+  font-size: 12px;
+  padding: 0;
+  justify-content: space-around;
+}
