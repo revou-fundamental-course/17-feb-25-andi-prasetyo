@@ -14,8 +14,10 @@
       </div>
       <nav class="navbar">
         <a class="no-border-radius-right" href="#">Home</a>
-        <a class="no-border-radius" href="#our-package-section">Our Packages</a>
-        <a class="no-border-radius-left" href="#contact-us-section">Call Us</a>
+        <a class="no-border-radius" href="#contact-us-section">Our Packages</a>
+        <a class="no-border-radius-left" href="#contact-us-section"
+          >Contact Us</a
+        >
       </nav>
     </header>
     <!-- Header & Navigation end-->
@@ -23,18 +25,36 @@
     <!-- Main start-->
     <main>
       <header>
-        <h1>Your Trusted Travel Agent</h1>
+        <h1>Hi <span id="nama">Prast</span>, Welcome To Website</h1>
         <h4>Your Happiness is Our Happiness</h4>
       </header>
 
       <section class="main-content">
         <!-- Banner Autoslide -->
         <aside class="main-container">
-          <p>Banner Autoslide</p>
+          <!-- <p>Banner Autoslide</p> -->
+          <div class="main-banner banner-img-1"></div>
+          <div class="main-banner banner-img-2"></div>
+          <div class="main-banner banner-img-3"></div>
+          <!-- <img class="img-slideshow" src="assets/4526.jpg" alt="">
+          <img class="img-slideshow" src="assets/5229.jpg" alt="">
+          <img class="img-slideshow" src="assets/2147671424.jpg" alt=""> -->
+          <button type="button" onclick="previewBanner()">Previous</button>
+          <button type="button" onclick="nextBanner();">Next</button>
         </aside>
+        <script src="js/script.js"></script>
         <!-- Form Contact Us -->
         <aside class="main-container">
-          <p>Form Contact Us</p>
+          <header><h2>Form Contact Us</h2></header>
+          <form action="">
+            <div>
+              <label for="name-input">Name: </label>
+              <input type="text" id="name-input" required />
+            </div>
+            <div>
+              <button type="submit" onclick="validationForm()">Submit</button>
+            </div>
+          </form>
         </aside>
       </section>
 
@@ -58,7 +78,7 @@
 
       <section id="contact-us-section" class="contact-us-section">
         <header>
-          <h2>Contact US</h2>
+          <h2>Contact Us</h2>
         </header>
       </section>
       <!-- Content Our Packages -->
